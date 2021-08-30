@@ -1,39 +1,42 @@
 body {
-  position: relative;
-  padding: 25px;
-  min-width: 1000px;
-}
-h2 {
+    position: relative;
+    padding: 25px;
+    min-width: 1000px;
+  }
+  h2 {
+      color:gold;
+  }
+  .row {
+      background-color:black;
+  }
+  
+  #sticky-sidebar {
+    position: fixed;
+    min-width: 250px;
+    padding: 20px;
+    box-shadow: rgba(255, 233, 36, 0.897) 0px 54px 55px, rgba(250, 220, 53, 0.945) 0px -12px 30px, rgba(248, 234, 35, 0.938) 0px 4px 6px, rgba(233, 229, 13, 0.952) 0px 12px 13px, rgba(235, 231, 8, 0.932) 0px -3px 5px;
+    background-color: black;
     color:gold;
-}
-.row {
-    background-color:black;
-}
-
-#sticky-sidebar {
-  position: fixed;
-  min-width: 250px;
-  padding: 20px;
-  box-shadow: rgba(255, 233, 36, 0.897) 0px 54px 55px, rgba(250, 220, 53, 0.945) 0px -12px 30px, rgba(248, 234, 35, 0.938) 0px 4px 6px, rgba(233, 229, 13, 0.952) 0px 12px 13px, rgba(235, 231, 8, 0.932) 0px -3px 5px;
-  background-color: black;
-  color:gold;
- 
-}
-
-.content {
-  width: 100%;
-  margin: 0 auto;
-  margin-left: 27%;
-  background-color: black;
-  color:white;
-}
-
-.code {
-  background-color: rgba(255, 255, 255, 0.2);
-  padding: 25px;
-  margin: 25px;
-  border: none;
-  border-radius: 10px;
-  box-shadow: rgba(236, 233, 49, 0.425) 0px 30px 60px -12px inset, rgba(226, 226, 16, 0.726) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+   
+  }
+  
+  .content {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 27%;
+    background-color: black;
+    color:white;
+  }
+  
+  .code {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 25px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(236, 233, 49, 0.425) 0px 30px 60px -12px inset, rgba(226, 226, 16, 0.726) 0px 18px 36px -18px inset;
+    
+  }
   
 }
